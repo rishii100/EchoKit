@@ -16,23 +16,10 @@ The assistant greets users, listens via microphone, responds intelligently, and 
 
 ---
 
-## 🏗️ Architecture Overview
+## 🏗️ Architecture Diagram
 
-```
-Microphone Input
-     ↓
-Silero VAD (detect speech)
-     ↓
-STT (Cartesia Ink-Whisper)
-     ↓
-LLM (Gemini 2.5 Flash)
-     ↓
-(Optional) Tool Call (Weather API)
-     ↓
-TTS (Cartesia Sonic-3)
-     ↓
-Speaker Output
-```
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/715af5fa-3320-46fa-a8e9-fd5f75867b51" />
+
 
 ---
 
