@@ -1,6 +1,6 @@
-# EchoKit
+# EchoKit-Agent
 
-A real-time **voice-based AI assistant** built using **LiveKit Agents**, supporting **speech-to-text**, **LLM reasoning**, **function calling**, and **text-to-speech**.
+A real-time **voice-based AI agent** built using **LiveKit Agents**, supporting **speech-to-text**, **LLM reasoning**, **function calling**, and **text-to-speech**.
 The assistant greets users, listens via microphone, responds intelligently, and can call tools (e.g., weather lookup) when required.
 
 ---
@@ -49,7 +49,7 @@ The assistant greets users, listens via microphone, responds intelligently, and 
 
 ## 🧠 Tool: Weather Lookup
 
-The assistant includes a **function tool**:
+The agent includes a **function tool**:
 
 ```python
 @function_tool
