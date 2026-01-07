@@ -45,7 +45,7 @@ Speaker Output
 | STT             | Cartesia Ink-Whisper    |
 | LLM             | Google Gemini 2.5 Flash |
 | TTS             | Cartesia Sonic-3        |
-| Language        | Python (async)          |
+| Language        | Python        |
 
 ---
 
@@ -57,20 +57,6 @@ Speaker Output
 ├── .env.local           # Environment variables
 ├── README.md            # Project documentation
 ```
-
----
-
-## 🔐 Environment Variables
-
-Create a `.env.local` file:
-
-```env
-LIVEKIT_API_KEY=your_api_key
-LIVEKIT_API_SECRET=your_api_secret
-LIVEKIT_URL=wss://your-livekit-server
-```
-
-> ⚠️ Never commit `.env.local` to GitHub.
 
 ---
 
@@ -127,26 +113,6 @@ python assistant.py console
 * Waits for voice input
 * Responds conversationally
 * Uses tools **only when necessary**
-
----
-
-## 🔮 Future Improvements
-
-* 🌍 Real weather API integration
-* 🌐 Multi-language support
-* 🧠 Long-term conversation memory
-* 📊 Analytics & conversation logging
-* 🔐 Authenticated user sessions
-
----
-
-## 🧠 Use Cases
-
-* Voice assistants
-* Customer support bots
-* Smart kiosks
-* Call-center automation
-* Healthcare & telemedicine agents
 
 ---
 
